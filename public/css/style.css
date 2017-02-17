@@ -1,0 +1,24 @@
+
+.rectangle {
+    border: 1px solid #FF0000;
+    position: absolute;
+}
+
+#fileList{
+  list-style-type: none;
+  height:200px; width:18%;
+  overflow-y:scroll;
+  margin-left: auto;
+  margin-right: auto
+}
+
+
+#annotationList{
+  list-style-type: none;
+  height:200px; width:18%;
+  overflow-y:scroll;
+  margin-left: auto;
+  margin-right: auto
+}
+
+li.selected {background:yellow}

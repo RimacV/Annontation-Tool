@@ -22,3 +22,5 @@
 }
 
 li.selected {background:yellow}
+
+li.selectedAnnotation {background:yellow}

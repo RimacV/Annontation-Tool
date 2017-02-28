@@ -66,6 +66,7 @@
                 <input type="text"  name="y1" placeholder="y1" id="roi-y1-textbox"/>
                 <input type="text"  name="x2" placeholder="x2" id="roi-x2-textbox"/>
                 <input type="text"  name="y2" placeholder="y2" id="roi-y2-textbox"/>
+                <input type="checkbox" id="selectionLock" name="selectionLocked" value="Lock Selection"> Lock Selection<br>
               </div>
             <div class="col-xs-12 col-md-6 text-center">
                 <img src="data:image/png;base64,{{img}}" class="annotatable" id='displayedImage' />
@@ -88,8 +89,9 @@
                <div class="col-xs-12 text-center ">
                  <input type="submit" name="submit" value="Submit" id="submit-button" tabindex="-1"/>
                  <input type="submit" name="roi" value="Add ROI" id="roi-button" tabindex="-1"/>
-                 <input type="submit" name="roi" value="Next Image" id="next-button" tabindex="-1"/>
-                 <input type="submit" name="roi" value="Previous Image" id="previous-button"  tabindex="-1"/>
+                 <input type="submit" name="next" value="Next Image" id="next-button" tabindex="-1"/>
+                 <input type="submit" name="previous" value="Previous Image" id="previous-button"  tabindex="-1"/>
+                 <input type="submit" name="delete" value="Delete Annotation" id="delete-Annotation-button"  tabindex="-1"/>
                </div>
         </div>
 
